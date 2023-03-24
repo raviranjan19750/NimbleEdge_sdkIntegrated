@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter size for the array:"
+        android:textSize="20sp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/arraySizeEditTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter size"
+        android:inputType="numberSigned"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter float values for the array:"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/valueInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a float value"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:importantForAutofill="no" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"/>
+
+    <Button
+        android:id="@+id/addValueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Value" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/arrayStackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/calculateValueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Double The Array" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"/>
+
+    <TextView
+        android:id="@+id/resultArrayStackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+</LinearLayout>
